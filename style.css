@@ -1,0 +1,101 @@
+/*Colors and fonts*/
+body {
+	background: #F0ECE3;
+	color: black;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', serif;
+}
+
+h1 {
+	color: #596E79;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #506D84;
+	font-size: 22px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #596E79;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #596E79;
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: #F7F7F7;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #596E79;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #889EAF;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #889EAF;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #596E79;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
